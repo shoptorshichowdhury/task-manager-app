@@ -1,4 +1,4 @@
-# Task Management App
+# Task Flow - Task Management Web APP
 
 ## Short Description
 
@@ -7,7 +7,7 @@ This is a task management app designed for authenticated users where they can cr
 ## Live Link
 
 You can try the app here:  
-[**Live Demo**](https://your-deployed-app-link.com)  
+[**Live Demo**](https://task-flow-your-app.netlify.app/)  
 
 ## Features
 
