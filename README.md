@@ -40,6 +40,7 @@ You can try the app here:
 ### Client-Side Dependencies
 
 ```json
+{
 "@dnd-kit/core": "^6.3.1",
 "@dnd-kit/modifiers": "^9.0.0",
 "@dnd-kit/sortable": "^10.0.0",
@@ -67,3 +68,56 @@ You can try the app here:
 "sort-by": "^1.2.0",
 "tailwind-merge": "^3.0.1",
 "tailwindcss-animate": "^1.0.7"
+}
+```
+
+### **Server-Side Dependencies:**
+```json
+{
+  "cors": "^2.8.5",
+  "dotenv": "^16.4.7",
+  "express": "^4.21.2",
+  "mongodb": "^6.12.0",
+  "stripe": "^17.5.0"
+}
+```
+
+## How to run this project locally
+
+### ✅ Prerequisites
+
+Before running this project locally, ensure you have the following installed:
+
+- **Node.js** (v14 or higher) - [Download here](https://nodejs.org/)
+- **npm** (v6 or higher) - Comes with Node.js
+- **Git** (latest version recommended) - [Download here](https://git-scm.com/)
+
+### Verify Installation
+To check if you have the required tools installed, run these commands in your terminal:
+
+```bash
+node -v
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
